@@ -10,6 +10,7 @@ body {
     line-height: 1.6;
     color: #333;
     padding: 20px;
+    background: url('background.jpg') no-repeat center center/cover;
 }
 
 header {
@@ -17,6 +18,9 @@ header {
     color: #fff;
     padding: 20px;
     text-align: center;
+    position: sticky;
+    top: 0;
+    z-index: 1000;
 }
 
 nav ul {
@@ -34,9 +38,10 @@ nav ul li a {
 }
 
 #hero {
-    background: #eee;
+    background: rgba(0, 0, 0, 0.5);
     padding: 50px 20px;
     text-align: center;
+    color: #fff;
 }
 
 #about {
